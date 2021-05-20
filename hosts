@@ -1,0 +1,8 @@
+all:
+  hosts:
+  children:
+    webservers:
+      hosts:
+    dbservers:
+      hosts:
+        10.22.174.113:
