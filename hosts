@@ -7,3 +7,4 @@ all:
       hosts:
         10.22.174.113:
           ansible_user: ubuntu
+          ansible_become: yes
