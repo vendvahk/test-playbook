@@ -6,3 +6,4 @@ all:
     dbservers:
       hosts:
         10.22.174.113:
+          ansible_user: ubuntu
